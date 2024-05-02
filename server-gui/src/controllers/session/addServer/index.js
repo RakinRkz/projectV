@@ -13,7 +13,7 @@ import ServerConnections from '../../../components/ServerConnections';
             case 'SignedIn': {
                 const apiClient = result.ApiClient;
                 Dashboard.onServerChanged(apiClient.getCurrentUserId(), apiClient.accessToken(), apiClient);
-                Dashboard.navigate('home.html');
+                Dashboard.navigate('library.html');
                 break;
             }
             case 'ServerSignIn':

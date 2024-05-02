@@ -682,7 +682,7 @@ class AppRouter {
     }
 
     goHome() {
-        Dashboard.navigate('home.html');
+        Dashboard.navigate('library.html');
     }
 
     showSearch() {

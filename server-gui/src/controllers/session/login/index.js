@@ -112,7 +112,7 @@ import './login.scss';
 
     function onLoginSuccessful(id, accessToken, apiClient) {
         Dashboard.onServerChanged(id, accessToken, apiClient);
-        Dashboard.navigate('home.html');
+        Dashboard.navigate('library.html');
     }
 
     function showManualForm(context, showCancel, focusPassword) {

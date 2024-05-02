@@ -124,7 +124,7 @@ import cardBuilder from '../../../components/cardbuilder/cardBuilder';
                 switch (result.State) {
                     case 'SignedIn':
                         Dashboard.onServerChanged(apiClient.getCurrentUserId(), apiClient.accessToken(), apiClient);
-                        Dashboard.navigate('home.html');
+                        Dashboard.navigate('library.html');
                         break;
 
                     case 'ServerSignIn':
